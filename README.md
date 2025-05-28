@@ -21,7 +21,54 @@ To metodologia, która odwraca tradycyjne podejście do programowania. Zamiast z
 - **Feedback jest natychmiastowy**
 - **Kolejne funkcje dodawane stopniowo, na podstawie realnych potrzeb**
 
+
+```
+Proces JAKCO
+                          ============
+
+    ┌─────────┐    ┌─────────┐    ┌─────────┐    ┌─────────┐
+    │   JAK   │───▶│   CO    │───▶│  TEST   │───▶│   OK?   │
+    │ User    │    │ Impl.   │    │ User    │    │   ◊     │
+    │ Story   │    │         │    │Feedback │    │         │
+    └─────────┘    └─────────┘    └─────────┘    └─────────┘
+         ▲                                            │
+         │                                            │
+         │                                            ▼
+         │              ┌─────────────────────────────┤
+         │              │                             │
+         │              │ NO - Iterate                │ YES
+         │              │                             │
+         │              ▼                             ▼
+         └──────────────────────────────────────────────────┐
+                                                             │
+                                                             │
+    ┌─────────┐    ┌─────────┐                              │
+    │   JAK   │───▶│   CO    │                              │
+    │ Next    │    │ Build   │ ◄────────────────────────────┘
+    │ Story   │    │ More    │
+    └─────────┘    └─────────┘
+         │              │
+         ▼              ▼
+        ...            ...
+
+Legenda:
+========
+JAK  - Scenariusz użytkownika (jak user będzie używał)
+CO   - Implementacja techniczna (co aplikacja musi zrobić)
+TEST - Weryfikacja z userem (czy spełnia oczekiwania)
+◊    - Punkt decyzyjny (user zadowolony?)
+
+Przepływ:
+1. Zacznij od scenariusza JAK
+2. Zaimplementuj minimum CO
+3. Przetestuj z userem
+4. Jeśli OK → następna funkcja
+5. Jeśli nie OK → popraw iteracyjnie
+6. Powtarzaj aż wszystko działa
+```
+
 ## Porównanie podejść
+
 
 
 | **JAKCO** | **Standard** |
