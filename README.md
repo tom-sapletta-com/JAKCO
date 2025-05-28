@@ -1,6 +1,6 @@
 # JAKCO - TDD w vibe praktyce
 
-![JAKCO Logo](images/jakco-logo.svg)
+![JAKCO](JAKCO.svg)
 
 ## #JAKCO a nie #COJAK - rewolucja w podejściu do developmentu
 
