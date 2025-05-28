@@ -1,112 +1,109 @@
-<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="800" height="500" fill="#f8f9fa"/>
+  <rect width="1200" height="600" fill="#f8f9fa"/>
   <!-- Title -->
-  <text x="400" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#333">
     Proces JAKCO
   </text>
   <!-- JAK Node 1 -->
-  <rect x="50" y="80" width="120" height="60" fill="#e8f4fd" rx="8" stroke="#0077b5" stroke-width="2"/>
-  <text x="110" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0077b5">
+  <rect x="80" y="100" width="180" height="80" fill="#e3f2fd" rx="12" stroke="#1976d2" stroke-width="3"/>
+  <text x="170" y="130" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1976d2">
     JAK
   </text>
-  <text x="110" y="120" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+  <text x="170" y="155" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">
     User Story
   </text>
   <!-- Arrow 1 -->
-  <path d="M 170 110 L 220 110" stroke="#ff6b35" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M 260 140 L 320 140" stroke="#ff6b35" stroke-width="4" marker-end="url(#arrowhead)"/>
   <!-- CO Node 1 -->
-  <rect x="240" y="80" width="120" height="60" fill="#fff2e8" rx="8" stroke="#ff6b35" stroke-width="2"/>
-  <text x="300" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ff6b35">
+  <rect x="340" y="100" width="180" height="80" fill="#fff3e0" rx="12" stroke="#ff6b35" stroke-width="3"/>
+  <text x="430" y="130" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ff6b35">
     CO
   </text>
-  <text x="300" y="120" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+  <text x="430" y="155" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">
     Implementation
   </text>
   <!-- Arrow 2 -->
-  <path d="M 360 110 L 410 110" stroke="#34a853" stroke-width="3" marker-end="url(#arrowhead2)"/>
+  <path d="M 520 140 L 580 140" stroke="#4caf50" stroke-width="4" marker-end="url(#arrowhead2)"/>
   <!-- Test Node -->
-  <rect x="430" y="80" width="120" height="60" fill="#e8f5e8" rx="8" stroke="#34a853" stroke-width="2"/>
-  <text x="490" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#34a853">
+  <rect x="600" y="100" width="180" height="80" fill="#e8f5e8" rx="12" stroke="#4caf50" stroke-width="3"/>
+  <text x="690" y="130" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#4caf50">
     TEST
   </text>
-  <text x="490" y="120" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+  <text x="690" y="155" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">
     User Feedback
   </text>
+  <!-- Arrow 3 -->
+  <path d="M 780 140 L 840 140" stroke="#4caf50" stroke-width="4" marker-end="url(#arrowhead2)"/>
   <!-- Decision Diamond -->
-  <polygon points="610,80 660,110 610,140 560,110" fill="#ffeaa7" stroke="#fdcb6e" stroke-width="2"/>
-  <text x="610" y="115" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#e17055">
+  <polygon points="860,100 920,140 860,180 800,140" fill="#fff8e1" stroke="#ffc107" stroke-width="3"/>
+  <text x="860" y="150" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#f57c00">
     OK?
   </text>
-  <!-- Arrow to decision -->
-  <path d="M 550 110 L 560 110" stroke="#34a853" stroke-width="3" marker-end="url(#arrowhead2)"/>
-  <!-- NO path - back to JAK -->
-  <path d="M 590 130 Q 550 180 300 180 Q 110 180 110 140" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrowhead3)" fill="none"/>
-  <text x="350" y="195" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">
-    NO - Iterate
-  </text>
-  <!-- YES path - to next JAK -->
-  <path d="M 630 90 L 680 90 L 680 60 L 110 60 L 110 200" stroke="#27ae60" stroke-width="3" marker-end="url(#arrowhead4)" fill="none"/>
-  <text x="680" y="50" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">
+  <!-- YES path - top -->
+  <path d="M 880 120 L 1000 120 L 1000 60 L 170 60 L 170 220" stroke="#4caf50" stroke-width="4" marker-end="url(#arrowhead2)" fill="none"/>
+  <text x="1020" y="50" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4caf50">
     YES - Next Feature
   </text>
+  <!-- NO path - bottom -->
+  <path d="M 840 160 Q 700 250 430 250 Q 170 250 170 180" stroke="#f44336" stroke-width="4" marker-end="url(#arrowhead3)" fill="none"/>
+  <text x="500" y="270" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#f44336">
+    NO - Iterate
+  </text>
   <!-- JAK Node 2 -->
-  <rect x="50" y="220" width="120" height="60" fill="#e8f4fd" rx="8" stroke="#0077b5" stroke-width="2"/>
-  <text x="110" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0077b5">
+  <rect x="80" y="240" width="180" height="80" fill="#e3f2fd" rx="12" stroke="#1976d2" stroke-width="3"/>
+  <text x="170" y="270" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1976d2">
     JAK
   </text>
-  <text x="110" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+  <text x="170" y="295" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">
     Next Story
   </text>
-  <!-- Arrow 3 -->
-  <path d="M 170 250 L 220 250" stroke="#ff6b35" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <!-- Arrow 4 -->
+  <path d="M 260 280 L 320 280" stroke="#ff6b35" stroke-width="4" marker-end="url(#arrowhead)"/>
   <!-- CO Node 2 -->
-  <rect x="240" y="220" width="120" height="60" fill="#fff2e8" rx="8" stroke="#ff6b35" stroke-width="2"/>
-  <text x="300" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ff6b35">
+  <rect x="340" y="240" width="180" height="80" fill="#fff3e0" rx="12" stroke="#ff6b35" stroke-width="3"/>
+  <text x="430" y="270" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ff6b35">
     CO
   </text>
-  <text x="300" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+  <text x="430" y="295" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">
     Build More
   </text>
   <!-- Continuation dots -->
-  <circle cx="400" cy="250" r="4" fill="#666"/>
-  <circle cx="420" cy="250" r="4" fill="#666"/>
-  <circle cx="440" cy="250" r="4" fill="#666"/>
-  <!-- Legend -->
-  <rect x="50" y="350" width="700" height="120" fill="white" rx="8" stroke="#ddd"/>
-  <text x="70" y="375" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">
+  <circle cx="580" cy="280" r="6" fill="#666"/>
+  <circle cx="610" cy="280" r="6" fill="#666"/>
+  <circle cx="640" cy="280" r="6" fill="#666"/>
+  <!-- Legend Box -->
+  <rect x="80" y="380" width="1040" height="180" fill="white" rx="12" stroke="#ddd" stroke-width="2"/>
+  <text x="120" y="420" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">
     Legenda:
   </text>
   <!-- Legend items -->
-  <rect x="70" y="390" width="30" height="20" fill="#e8f4fd" stroke="#0077b5"/>
-  <text x="110" y="405" font-family="Arial, sans-serif" font-size="14" fill="#333">
+  <rect x="120" y="440" width="40" height="30" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="4"/>
+  <text x="180" y="460" font-family="Arial, sans-serif" font-size="18" fill="#333">
     JAK - Scenariusz użytkownika
   </text>
-  <rect x="70" y="420" width="30" height="20" fill="#fff2e8" stroke="#ff6b35"/>
-  <text x="110" y="435" font-family="Arial, sans-serif" font-size="14" fill="#333">
+  <rect x="120" y="480" width="40" height="30" fill="#fff3e0" stroke="#ff6b35" stroke-width="2" rx="4"/>
+  <text x="180" y="500" font-family="Arial, sans-serif" font-size="18" fill="#333">
     CO - Implementacja techniczna
   </text>
-  <rect x="400" y="390" width="30" height="20" fill="#e8f5e8" stroke="#34a853"/>
-  <text x="440" y="405" font-family="Arial, sans-serif" font-size="14" fill="#333">
+  <rect x="120" y="520" width="40" height="30" fill="#e8f5e8" stroke="#4caf50" stroke-width="2" rx="4"/>
+  <text x="180" y="540" font-family="Arial, sans-serif" font-size="18" fill="#333">
     TEST - Weryfikacja z userem
   </text>
-  <polygon points="400,420 415,425 400,430 385,425" fill="#ffeaa7" stroke="#fdcb6e"/>
-  <text x="440" y="430" font-family="Arial, sans-serif" font-size="14" fill="#333">
+  <polygon points="620,440 660,455 620,470 580,455" fill="#fff8e1" stroke="#ffc107" stroke-width="2"/>
+  <text x="680" y="460" font-family="Arial, sans-serif" font-size="18" fill="#333">
     Decyzja - czy user jest zadowolony?
   </text>
   <!-- Arrow markers -->
   <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b35"/>
+    <marker id="arrowhead" markerWidth="15" markerHeight="10" refX="15" refY="5" orient="auto">
+      <polygon points="0 0, 15 5, 0 10" fill="#ff6b35"/>
     </marker>
-    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#34a853"/>
+    <marker id="arrowhead2" markerWidth="15" markerHeight="10" refX="15" refY="5" orient="auto">
+      <polygon points="0 0, 15 5, 0 10" fill="#4caf50"/>
     </marker>
-    <marker id="arrowhead3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
-    </marker>
-    <marker id="arrowhead4" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#27ae60"/>
+    <marker id="arrowhead3" markerWidth="15" markerHeight="10" refX="15" refY="5" orient="auto">
+      <polygon points="0 0, 15 5, 0 10" fill="#f44336"/>
     </marker>
   </defs>
 </svg>
