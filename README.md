@@ -1,6 +1,8 @@
 # JAKCO - TDD w vibe praktyce
 
-## #JAKCO a nie #COJAK - rewolucja w podejściu do vide-developmentu
+![JAKCO Logo](images/jakco-logo.svg)
+
+## #JAKCO a nie #COJAK - rewolucja w podejściu do developmentu
 
 **Better done than perfect** - to motto, które napędza nową metodę programowania zwaną JAKCO. To podejście, które stawia user experience na pierwszym miejscu i buduje aplikacje incrementalnie, warstwa po warstwie.
 
@@ -20,6 +22,7 @@ To metodologia, która odwraca tradycyjne podejście do programowania. Zamiast z
 - **Kolejne funkcje dodawane stopniowo, na podstawie realnych potrzeb**
 
 ## Porównanie podejść
+
 
 | **JAKCO** | **Standard** |
 |-----------|--------------|
@@ -48,6 +51,9 @@ Stwórz system zarządzania użytkownikami z następującymi wymaganiami:
 - Design patterns: Factory, Strategy, Observer
 ```
 
+**📄 [Pełna odpowiedź ChatGPT dla metody CO →](CO.md)**
+![CO](CO.png)
+
 **Rezultat struktury projektu:**
 ```
 src/
@@ -69,11 +75,12 @@ src/
 └── swagger.js
 ```
 
-**Czas realizacji:** 2-4 tygodnie planowania i implementacji  
 **Kiedy user może testować:** Po ukończeniu całego systemu  
 **Feedback:** Spóźniony, często prowadzi do dużych zmian  
 
 ---
+
+
 
 ### 🚀 Podejście JAKCO (#JAK)
 
@@ -97,6 +104,9 @@ CO teraz potrzebuję:
 Zrób to najprostszym sposobem. Potem dodamy więcej.
 ```
 
+**📄 [Pełna odpowiedź ChatGPT dla metody JAK →](JAK.md)**
+![JAK](JAK.png)
+
 **Rezultat struktury folderów:**
 ```
 project/
@@ -109,11 +119,13 @@ project/
     └── (tu będzie React)
 ```
 
-**Czas realizacji:** 2-4 godziny  
+
 **Kiedy user może testować:** Od razu po pierwszej funkcji  
 **Feedback:** Natychmiastowy, pozwala na szybkie iteracje  
 
 ## Kluczowe różnice w rezultatach
+
+![Metoda CO vs JAK - Wizualizacja różnic](images/co-vs-jak-results.svg)
 
 ### Metoda #CO (standardowa)
 - **15+ plików** już na starcie
@@ -130,6 +142,8 @@ project/
 - **Niskie ryzyko** - szybka korekta na podstawie feedbacku
 
 ## Dlaczego seniorzy nie lubią JAKCO?
+
+![Senior Dev vs Vibecoder](images/senior-vs-vibecoder.svg)
 
 **Typowe zarzuty:**
 - "Gdzie UML? Gdzie architektura? Gdzie dokumentacja?!"
@@ -159,6 +173,8 @@ project/
 - **Systemów wymagających skalowalności od dnia zero**
 
 ## Proces JAKCO krok po kroku
+
+![Diagram procesu JAKCO](images/jakco-process-flow.svg)
 
 ### 1. Zacznij od JAK
 ```
