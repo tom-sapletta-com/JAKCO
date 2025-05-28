@@ -302,7 +302,7 @@ CO aplikacja musi zrobić?
 
 Oba podejścia - standardowe i JAKCO - mają swoje miejsce w development'cie. Kluczem jest umiejętność wyboru właściwej metody dla właściwego kontekstu.
 
-**Remember:** Better done than perfect, ale czasem perfect jest tym czego potrzebujemy. Umiej rozróżnić te sytuacje! 🎯
+Better done than perfect 🎯
 
 ---
 
@@ -438,7 +438,7 @@ Living Documentation:
 
 ## Podsumowanie
 
-**JAKCO nie jest alternative dla dobrej architektury** - to metodologia łącząca user-centric approach z architektoniczną świadomością. Kluczowe zasady:
+**JAKCO** - to metodologia łącząca user-centric approach z architektoniczną świadomością. Kluczowe zasady:
 
 
 - ![JAKCO](JAKCO.svg)
