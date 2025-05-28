@@ -1,6 +1,5 @@
 # JAKCO - TDD w vibe praktyce
 
-![JAKCO](JAKCO.svg)
 
 ![JAKCO](JAKCO.png)
 
@@ -290,3 +289,5 @@ Oba podejścia - standardowe i JAKCO - mają swoje miejsce w development'cie. Kl
 ---
 
 *P.S. Dla senior devs: JAKCO nie oznacza rezygnacji z dobrych praktyk. To oznacza inteligentne ich stosowanie w odpowiednim momencie. Architecture emerges, nie zawsze musi być planned from day one! 😉*
+
+![JAKCO](JAKCO.svg)
