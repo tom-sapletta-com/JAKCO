@@ -67,6 +67,20 @@ Przepływ:
 6. Powtarzaj aż wszystko działa
 ```
 
+### Kluczowe zasady grafu:
+
+Cykliczność - proces się powtarza dla każdej funkcji
+Iteracyjność - możliwość powrotu i poprawy
+User-centric - każdy cykl zaczyna się od potrzeb użytkownika
+Feedback loop - szybka weryfikacja z userem
+Incrementalność - budowanie krok po kroku
+
+### Różnica vs tradycyjny waterfall:
+
+Waterfall: Analiza → Design → Kod → Test → Deploy
+JAKCO: (JAK → CO → Test → Feedback) × N iteracji
+
+
 ## Porównanie podejść
 
 
