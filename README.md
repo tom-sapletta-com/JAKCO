@@ -51,7 +51,8 @@ Stwórz system zarządzania użytkownikami z następującymi wymaganiami:
 - Design patterns: Factory, Strategy, Observer
 ```
 
-**📄 [Pełna odpowiedź ChatGPT dla metody CO →](CO.md)**
+### 📄 [Pełna odpowiedź ChatGPT dla metody CO →](CO.md)
+
 ![CO](CO.png)
 
 **Rezultat struktury projektu:**
@@ -104,7 +105,8 @@ CO teraz potrzebuję:
 Zrób to najprostszym sposobem. Potem dodamy więcej.
 ```
 
-**📄 [Pełna odpowiedź ChatGPT dla metody JAK →](JAK.md)**
+### 📄 [Pełna odpowiedź ChatGPT dla metody JAK →](JAK.md)
+
 ![JAK](JAK.png)
 
 **Rezultat struktury folderów:**
