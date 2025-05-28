@@ -3,7 +3,7 @@
 
 ![JAKCO](JAKCO.png)
 
-## #JAKCO a nie #COJAK - rewolucja w podejściu do developmentu
+## #JAKCO a nie #COJAK - podejście TDD do vibe-developmentu
 
 **Better done than perfect** - to motto, które napędza nową metodę programowania zwaną JAKCO. To podejście, które stawia user experience na pierwszym miejscu i buduje aplikacje incrementalnie, warstwa po warstwie.
 
